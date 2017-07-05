@@ -1,0 +1,39 @@
+@font-face {
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'Proxima Nova';
+	src: local('Proxima Nova Bold'), 
+	local('Proxima-Nova-Regular'), 
+	url(fonts/proximanova-bold.woff) format('woff'), 
+	url(fonts/proximanova-bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("fonts/OpenSansRegular.woff") format("woff"), url("fonts/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansLight";
+	src: url(fonts/OpenSansLight.woff) format("woff"), url(fonts/OpenSansLight.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url(fonts/OpenSansBold.woff) format('woff'), 
+	url(fonts/OpenSansBold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url(fonts/opensans-semibold.woff) format('woff'),
+	 url(fonts/opensans-semibold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: bolder;
+}

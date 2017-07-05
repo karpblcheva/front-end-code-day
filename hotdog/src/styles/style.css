@@ -1,0 +1,272 @@
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	font-family: "OpenSansLight", Calibri, Arial, sans-serif;
+	color: #555559;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.content-wrapper {
+	width: auto;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.content {
+	padding: 0 0 74px;
+}
+
+.header .bg-header {
+	height: 481px;
+	background: url(../images/bg_header.jpg) center 0 no-repeat;
+}
+
+.header .instagram {
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	color: #fff;
+	font-family: 'Proxima Nova', Calibri, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.header .instagram::before {
+	content: '';
+	background: url(../images/instagram.png) no-repeat;
+	padding: 0 14px;
+}
+
+.header .main-menu {
+	position: relative;
+	width: auto;
+	text-align: center;
+	background: #fff;
+	box-shadow:  0 0 6px rgba(125,125,125,0.5); 
+}
+
+.header .main-menu .menu-list {
+	list-style: none;
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.header .main-menu .menu-item {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.header .main-menu .menu-item a {
+	display: block;
+	text-decoration: none;
+	color: #2e2e2e;
+	padding: 0 36px;
+	font-size: 20px;
+	font-family: 'Open Sans', Calibri, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+@media(max-width:596px) {
+	.header .main-menu .menu-list {
+	line-height: 50px;
+	}
+}	
+
+.page-intro {
+	text-align: center;
+	background: #fbfafa;
+	color: #555559;
+}
+
+.page-intro .heading {
+	width: 850px;
+	margin: 0 auto;
+}
+
+@media(max-width:1023px) {
+	.page-intro .heading {
+		width: 600px;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width:767px) {
+	.page-intro .heading {
+		width: 300px;
+		margin: 0 auto;
+		font-size: 46px;
+	}
+}	
+
+.page-intro .icon-hotdog {
+	width: 92px;
+	height: 92px;
+	position: relative;
+	margin: 110px auto 30px;
+	background: url(../images/icon_hotdog.png) 0 0 no-repeat;
+}
+
+.page-intro h1 {
+	font-family: "OpenSansLight", Calibri, Arial, sans-serif;
+	font-size: 56px;
+	font-weight: lighter;
+}
+
+.page-intro .button {
+	box-sizing: border-box;
+	height: 66px;
+	width: auto;
+	min-width: 310px;
+	margin: 80px auto 170px;
+	line-height: 66px;
+	background: #286782;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: 'Open Sans', Calibri, Arial, sans-serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+.product-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.product-list .product-item {
+	display: -webkit-flex;
+	margin: 0;
+	padding: 0;
+}
+
+.product-list .left {
+	-webkit-flex-direction: column;
+	width: 50%;
+}
+
+.product-list .right {
+	-webkit-flex-direction: column;
+	width: 50%;
+}
+
+.product-list .image {
+	display: block;
+    max-width: 100%;
+	height: auto;
+	top: 50%;
+}
+
+.product-list h2 {
+	font-family: 'Open Sans', Calibri, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product-list .name{
+	padding: 20% 0 0 10%;
+}
+
+.product-list .name::before {
+	content: '— '
+}
+.product-list .consist {
+	width: 70%;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+
+@media(max-width:767px) {
+	.product-list .name{
+		padding: 5% 0 0 5%;
+	}
+	.product-list .consist {
+	width: 90%;
+	padding-top: 10px;
+	}
+}	
+
+.footer {
+	margin: -74px auto 0;
+	min-width: 320px;
+	height: 74px;
+	background: #efefef;
+	font-size: 14px;
+}
+
+.footer span {
+	position: relative;
+	left: 20px;
+	top: 30px;
+}
+
+.footer .contact-list {
+	position: relative;
+	right: 20px;
+	top: 30px;
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer .contact-item {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.footer .contact-item:nth-child(n+2)::before {
+    content: "| ";
+}
+
+.footer a {
+	text-decoration: none;
+	color: #555559;
+}
+
+@media(max-width:767px) {
+
+    .footer span {
+        left: 10px;
+		top: 47px;
+    }
+
+    .footer .contact-list {
+        right: 10px;
+		top: 10px;
+    }
+
+    .footer .contact-item {
+        display: block;
+		text-align: right;
+    }
+
+    .footer .contact-item:nth-child(n+2)::before {
+        content: '';
+    }
+}
+
+@media(max-width:440px) {
+
+    .footer span {
+        left: 5px;
+    }
+
+    .footer .contact-list {
+        right: 5px;
+		top: -7px;
+    }
+}
